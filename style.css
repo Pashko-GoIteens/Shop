@@ -1,0 +1,36 @@
+body,h1,h2,h3,p,ul {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+body {
+    background-color: #f9f9f9;
+    line-height: 1;
+}
+.container {
+    width: 1720px;
+    margin: auto;
+}
+.header {
+    padding: 41px 0;
+    border-bottom: 2px solid #779611;
+}
+.header-container {
+    display: flex;
+    gap: 170px;
+}
+.header-list {
+    display: flex;
+    gap: 80px;
+}
+.header-link {
+    color: #707070;
+    font-size: 500;
+    font-family: "Montserrat", sans-serif;
+}
