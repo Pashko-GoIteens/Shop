@@ -34,3 +34,69 @@ body {
     font-size: 500;
     font-family: "Montserrat", sans-serif;
 }
+/* 2 секція */
+body {
+  margin: 0;
+  font-family: 'Exo 2', sans-serif;
+  background-color: #fafafa;
+  color: #779611;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 80px 0;
+  border-bottom: 2px solid #779611;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 480px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text {
+  font-size: 32px;
+  color: #6a8b1a;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.hero-link {
+  display: inline-block;
+  background-color: #779611;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 40px;
+  width: 224px;
+  height: 75px;
+  top: 0;
+  left: 0;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 660px;
+  height: 823px;
+  top: 120px;
+  left: 1123px;
+   display: block;
+}
